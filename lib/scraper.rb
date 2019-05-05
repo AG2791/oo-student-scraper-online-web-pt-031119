@@ -5,9 +5,9 @@ require 'nokogiri'
 class Scraper
 
   def self.scrape_index_page(index_url)
-    page= open("./fixtures/student-site/index.html")
+    page = open("./fixtures/student-site/index.html")
     
-    doc = Nokogiri::HTML(index_url)
+    doc = Nokogiri::HTML(page)
     
     students = doc.css("#instructors .team-holder .person-box")
     
