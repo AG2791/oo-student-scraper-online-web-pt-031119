@@ -9,6 +9,8 @@ class Scraper
     
     doc = Nokogiri::HTML(index_url)
     
+    puts doc
+    
     # Scraper.scrape_index_page(index_url)
     
     
