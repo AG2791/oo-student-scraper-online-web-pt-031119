@@ -6,7 +6,7 @@ class Scraper
 
   def self.scrape_index_page(index_url)
     
-    student = {}
+    students = []
     
     page = open("./fixtures/student-site/index.html")
     
