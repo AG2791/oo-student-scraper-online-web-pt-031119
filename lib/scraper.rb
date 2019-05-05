@@ -22,8 +22,6 @@ class Scraper
     
    
     
-    # Scraper.scrape_index_page(index_url)
-    
     
   end
 
