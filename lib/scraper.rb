@@ -23,6 +23,7 @@ class Scraper
     students
   end
     
+    Scraper.scrape_index_page(index_url)
    
     
     
