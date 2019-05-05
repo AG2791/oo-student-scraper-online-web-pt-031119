@@ -9,7 +9,7 @@ class Scraper
     
     doc = Nokogiri::HTML(page)
     
-    students = doc.css("#instructors .team-holder .person-box")
+   
     
     # Scraper.scrape_index_page(index_url)
     
